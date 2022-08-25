@@ -1,3 +1,7 @@
+body {
+  background-color: beige;
+}
+
 footer {
   position: absolute;
   bottom: 0;
@@ -5,6 +9,14 @@ footer {
   height: 30px;
   text-align: center;
   color: #000;
+}
+img {
+  width: 30em;
+  border: 50px solid white;
+}
+
+#main {
+  height: 100vh;
 }
 
 .sidenav {
@@ -15,7 +27,6 @@ footer {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #fff;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 30px;
@@ -29,5 +40,13 @@ footer {
   transition: 0.3s;
 }
 .sidenav a:hover {
-  color: #f473b9;
+  color: black;
+}
+
+.content {
+  display: flex;
+  height: 100%;
+}
+.photo {
+  margin: auto;
 }
