@@ -23,6 +23,18 @@ img {
   padding: 1em;
 }
 
+.menu {
+  font-family: "Ms Madi", cursive;
+  height: 100%;
+  width: 100%;
+  top: 30%;
+  left: 43%;
+  position: fixed;
+  z-index: 1;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
 .sidenav {
   font-family: "Ms Madi", cursive;
   height: 100%;
@@ -35,8 +47,18 @@ img {
   transition: 0.5s;
   padding-top: 30px;
 }
+.menu a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 35px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.menu a:hover {
+  color: black;
+}
 .sidenav a {
-  padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
   color: #818181;
@@ -50,8 +72,32 @@ img {
 .content {
   display: flex;
   height: 100%;
-  margin-left: 100px;
+}
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-top: 30px;
 }
 .photo {
   margin: auto;
+}
+
+.experience {
+  padding-left: 40px;
+  font-size: 45px;
+  font-weight: bold;
+  position: fixed;
+  color: black;
+  text-decoration: underline;
+  font-family: "Climate Crisis", cursive;
+}
+.goBack {
+  font-size: 35px;
+  margin-top: 65px;
+}
+.order {
+  padding-left: 40px;
+  font-size: 30px;
+  margin-top: 200px;
 }
